@@ -29,6 +29,15 @@
             //Console.WriteLine(point.ToString());
 
             #endregion
+
+            #region Q3
+            //Person p1 = new Person(3);
+            //p1.AddPerson(0, "Alice", 30);
+            //p1.AddPerson(1, "Bob", 25);
+            //p1.AddPerson(2, "Charlie", 35);
+
+            //p1.getOldestName();
+            #endregion
         }
     }
 }
