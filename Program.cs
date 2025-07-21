@@ -5,7 +5,7 @@
         static void Main(string[] args)
         {
             #region Struct
-            
+
             /*
              * Struct value type
              * struct comes from C language
@@ -19,6 +19,36 @@
 
             #endregion
 
+            #region oop def
+
+            /*
+             * OOP => Object Oriented Programming
+             * Foucs on objects
+             * c# pure OOP
+             * 
+             * 1. Encapsulation
+             * 2. Inheritance
+             * 3. Polymorphism
+             * 4. Abstraction
+
+             */
+
+
+            #endregion
+
+            #region Employee
+
+            Employee emp1 = new Employee(1, "Jon" , 50000);
+            //Console.WriteLine(emp1);
+
+            //emp1.Id = -2;
+            //emp1.Name = "ay7aga";
+
+            Console.WriteLine(emp1.getName());
+            emp1.SetName("Mohamed");
+            Console.WriteLine(emp1.getName());
+
+            #endregion
         }
     }
 }

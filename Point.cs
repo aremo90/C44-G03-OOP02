@@ -45,8 +45,5 @@ namespace ConsoleApp1
         //}
 
         #endregion
-
-
-
     }
 }
