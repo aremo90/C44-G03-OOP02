@@ -61,23 +61,25 @@ namespace ConsoleApp1
         // CTOR + tab
         // from attributes
 
-        public Employee(int id, string name, decimal salary)
-        {
-            Id = id;
-            Name = name;
-            Salary = salary;
-        }
+        //public Employee(int id, string name, decimal salary)
+        //{
+        //    Id = id;
+        //    Name = name;
+        //    Salary = salary;
+        //}
 
 
         #endregion
         #region methods
 
-        public override string ToString()
-        {
-            return $"Employee:ID: {Id},\nName: {Name},\nSalary: {Salary:C}\n";
-        }
+        //public override string ToString()
+        //{
+        //    return $"Employee:ID: {Id},\nName: {Name},\nSalary: {Salary:C}\n";
+        //}
 
         #endregion
+
+
 
     }
 }
