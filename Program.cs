@@ -18,7 +18,6 @@
             //Console.WriteLine(p1);
 
             #endregion
-
             #region oop def
 
             /*
@@ -35,7 +34,6 @@
 
 
             #endregion
-
             #region Employee
 
             Employee emp1 = new Employee(1, "Jon" , 50000);
@@ -44,11 +42,19 @@
             //emp1.Id = -2;
             //emp1.Name = "ay7aga";
 
-            Console.WriteLine(emp1.getName());
-            emp1.SetName("Mohamed");
-            Console.WriteLine(emp1.getName());
+            //Console.WriteLine(emp1.getName());
+            //emp1.SetName("Mohamed");
+            //Console.WriteLine(emp1.getName());
+
+            //emp1.salary = 100000;
+            //Console.WriteLine(emp1.salary);
+
+            //emp1.Age = 30;
+            //Console.WriteLine($":{ emp1.Age }");
 
             #endregion
+
+
         }
     }
 }
