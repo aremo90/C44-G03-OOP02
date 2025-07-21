@@ -38,6 +38,20 @@
 
             //p1.getOldestName();
             #endregion
+
+            #region Q4
+            //Rectangle rectangle = new Rectangle();
+
+            //Console.Write("Enter the width of the rectangle: ");
+            //rectangle.Width = double.Parse(Console.ReadLine());
+
+            //Console.Write("Enter the height of the rectangle: ");
+            //rectangle.Height = double.Parse(Console.ReadLine());
+
+            //Console.Clear();
+            //rectangle.Display();
+
+            #endregion
         }
     }
 }
